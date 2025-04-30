@@ -1,5 +1,6 @@
 
 link Hosting : https://face-recognition-voting-web-application-5yiz.vercel.app/admin-chat
+firebase not support
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
