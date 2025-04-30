@@ -1,0 +1,91 @@
+/* CandidateRegister.css */
+
+.candidate-register {
+    min-height: 100vh;
+    padding-bottom: 40px;
+    background: linear-gradient(to right, #62cfdd, #9be646);
+    border: 5px solid rgb(255, 255, 255);
+    margin-top: 150px;
+  }
+  
+  .form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-container h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #1f2937;
+    font-family: Century Gothic;
+  }
+  
+  .candidate-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+  }
+  
+  .candidate-form label {
+    font-weight: 500;
+    color: #333;
+    font-family: Cascadia Code;
+  }
+  
+  .candidate-form input[type="text"],
+  .candidate-form input[type="file"],
+  .candidate-form textarea {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: border-color 0.3s;
+    font-family: Cascadia Code;
+  }
+
+  .candidate-form input{
+    font-family: Cascadia Code;
+    color: rgb(68, 68, 68);
+  }
+  
+  .candidate-form input[type="text"]:focus,
+  .candidate-form textarea:focus {
+    border-color: #3b82f6;
+    outline: none;
+  }
+  
+  .candidate-form textarea {
+    resize: vertical;
+  }
+  
+  .candidate-form button {
+    background-color: #3b82f6;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-family: Cascadia Code;
+  }
+  
+  .candidate-form button:hover {
+    background-color: #2563eb;
+  }
+  
+  .success-msg {
+    margin-top: 16px;
+    color: #16a34a;
+    font-weight: 600;
+    text-align: center;
+  }
+  

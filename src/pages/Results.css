@@ -1,0 +1,151 @@
+.results-container {
+    display: flex;
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .sidebar {
+    width: 220px;
+    background-color: #222;
+    color: #fff;
+    padding: 1.5rem;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+  }
+  
+  .sidebar h3 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 12px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #ddd;
+    transition: 0.3s ease;
+  }
+  
+  .sidebar ul li a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+  
+  .content {
+    flex-grow: 1;
+    padding: 2rem;
+  }
+  
+  .content h2 {
+    font-size: 28px;
+    margin-bottom: 1.5rem;
+    color: #333;
+  }
+  
+  .results-section {
+    margin-bottom: 3rem;
+  }
+  
+  .results-section h3 {
+    font-size: 22px;
+    margin-bottom: 1rem;
+    color: #444;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+  }
+  
+  th, td {
+    border: 1px solid #ccc;
+    padding: 0.75rem;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f1f1f1;
+  }
+
+  .candidate-list {
+    display: inline;
+    
+  }
+    
+    .sidebar {
+      flex: 1;
+      background-color: #f4f4f9;
+      padding: 20px;
+      border-radius: 10px;
+    }
+    
+    .sidebar h3 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+    
+    .sidebar ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    .sidebar ul li {
+      margin: 10px 0;
+    }
+    
+    .sidebar ul li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 1.2em;
+    }
+    
+    .content {
+      flex: 3;
+    }
+    
+    .results-section {
+      margin-bottom: 30px;
+    }
+    
+    .results-section h3 {
+      font-size: 1.5em;
+      margin-bottom: 15px;
+    }
+    
+    .list-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    
+    .list-item {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .list-item h4 {
+      font-size: 1.2em;
+      margin-bottom: 10px;
+    }
+    
+ 
+    
+    
+ 
+ 
+  
+ 
+  

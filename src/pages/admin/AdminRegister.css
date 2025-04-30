@@ -1,0 +1,348 @@
+/* General Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Main Container */
+.register-container {
+    display: flex;
+    height: 105vh;
+    background: linear-gradient(to bottom, #000000, #0c0c63);
+    color: white;
+}
+.log{
+    text-align: center;
+    color: white;
+}
+.log  p{
+    margin-bottom: 10px;
+    color: white;
+}
+
+.log a{
+    text-decoration: none;
+    color: #0969da;
+}
+
+/* Left Side */
+.register-left {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+
+    img {
+       width: 280px;
+       height: auto;
+    }
+}
+
+.register-left h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: Century Gothic;
+}
+
+.register-left p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #7b7b7e;
+    font-family: Cascadia Code;
+}
+
+.register-left a {
+    margin-top: 20px;
+    color: #58a6ff;
+    text-decoration: none;
+    font-family: Cascadia Code;
+}
+
+.nsbm{
+    text-align: center;
+}
+
+h2{
+    font-family: Century Gothic;
+}
+.nsbm img{
+    height: 100px;
+}
+/* Right Side */
+.register-right {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.register-box {
+    padding:30px 20%;
+    border-radius: 10px;
+    
+}
+
+.register-box h2 {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-weight: 300;
+    text-align: center;
+    color: green;
+    font-family: Century Gothic;
+}
+
+/* Form Styling */
+label {
+    display: block;
+    font-size: 0.9rem;
+    margin: 10px 0 5px;
+    font-family: Cascadia Code;
+
+}
+
+.info {
+    font-family: Cascadia Code;
+}
+
+/* Style for input fields */
+input {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background-color: #30333800;
+    color: #c9d1d9;
+    font-family: Cascadia Code;
+    
+  }
+  input[type="password"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background-color: #30333800;
+    color: #c9d1d9;
+  }
+
+  input [type="password"]:focus {
+    border-color: #58a6ff;
+    outline: none;
+  }
+  input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    background-color: #30333800;
+    color: #c9d1d9;
+  }
+
+  input [type="text"]:focus {
+    border-color: #58a6ff;
+    outline: none;
+  }
+  /* Highlight input fields with red border when there's an error */
+  input.error {
+    border: 1px solid red;
+  }
+  
+  
+  /* Error message styling */
+  .error-message {
+    color: red;
+    font-size: 14px;
+    margin-bottom: 10px;
+    display: none;
+    font-family: Cascadia Code;
+  }
+  
+  /* Display error messages */
+  .error-message.show {
+    display: block;
+    font-family: Cascadia Code;
+  }
+  
+
+.error {
+    color: red;
+    font-size: 0.8rem;
+}
+
+.info {
+    color: gray;
+    font-size: 0.8rem;
+}
+
+.mute{
+    
+    .terms {
+        font-family: Cascadia Code;
+    }
+}
+
+/* Button */
+.continue-btn {
+    width: 100%;
+    color: rgb(7, 7, 7);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+.continue-btn:hover {
+    background: green;
+    color: white;
+    font-weight: bold;
+}
+
+/* Terms */
+.terms {
+    font-size: 0.8rem;
+    color: gray;
+    margin-top: 10px;
+}
+
+.terms a {
+    color: #0969da;
+    text-decoration: none;
+}
+
+.terms a:hover {
+    text-decoration: underline;
+}
+
+.form-box {
+    border: white 1px solid;
+    padding: 30px;
+    margin: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.fot {
+    height: 10px;
+    background-color: #0c0c63;
+}
+
+  
+  @media (max-width: 1100px) {
+    .register-container {
+      flex-direction: column;
+    }
+  
+    .register-left, .register-right {
+     
+      width: 100%;
+
+    }
+
+    .register-right {
+        padding: 10px;
+    }
+  
+    .register-left {
+      align-items: center;
+    }
+
+    .register-box{
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+    img {
+      margin-top: 15px;
+        height: 80px;
+        margin-bottom: 5px;
+    }
+    .mute p{
+        display: none;
+    }
+    .log p{
+        display: none;
+    }
+    .nsbm img{
+        display: none;
+    }
+    .register-left img{
+        display: inline-block;
+    }
+    .nsbm h2{
+        margin: 0;
+    }
+    
+    .register-left p{
+        display: 0;
+        padding: 0 60px;
+        text-align: center;
+    }
+    .register-left {
+        margin: 0;
+        padding: 0;
+    }
+
+    .fot p{
+        display: 0;
+    }
+
+  }
+  
+  .google-sign-up-btn {
+    margin-top: 1rem;
+    padding: 0.7rem;
+    width: 100%;
+    background-color: #071b4400;
+    color: #000;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Cascadia Code;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    border: 1px solid #ccc;
+    color: white;
+  }
+  
+  .google-sign-up-btn:hover {
+    background-color: green;
+
+  }
+  
+  .or-divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 16px 0;
+    color: #888;
+  }
+  
+  .or-divider hr {
+    flex: 1;
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+   
+  .google-sign-up-btn img {
+    width: 20px;
+    height: 20px;
+  }
+  
+  @media screen and (max-width: 1440px ){
+    .register-right{
+
+        height: 100vh;
+    }
+    
+  }

@@ -1,0 +1,94 @@
+
+.lecturer-view-container {
+    max-width: 1000px;
+    margin: 150px auto;
+    padding: 30px;
+    background: #f4faff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-family: 'Cascadia Code'
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #bbb;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    font-family: 'Cascadia Code'
+  }
+  
+  .lecturer-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .lecturer-table th,
+  .lecturer-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+    color: #000;
+    font-family: 'Cascadia Code';
+  }
+  
+  .lecturer-table th {
+    background-color: #3498db;
+    color: white;
+    font-weight: bold;
+  }
+  
+  .lecturer-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .lecturer-table input {
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+  }
+  
+  button {
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Cascadia Code'
+  }
+  
+  .edit-btn {
+    background-color: #3498db;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .delete-btn {
+    background-color: #e74c3c;
+    color: white;
+  }
+  
+  .save-btn {
+    background-color: #2ecc71;
+    color: white;
+    margin-right: 5px;
+  }
+  
+  .cancel-btn {
+    background-color: #95a5a6;
+    color: white;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  

@@ -1,0 +1,22 @@
+
+.cont{
+    width: 90vw;
+    height: 90vh;
+}
+
+.home-container{
+    background: #00000000;
+    border: none;
+}
+
+.home-content{
+    margin-right: 10px;
+    margin-left: 10px;
+    border: none;
+    height: 40vh;
+    overflow: scroll;
+}
+
+.home-subtitle{
+    margin-bottom: 10px ;
+}

@@ -1,0 +1,21 @@
+/* Global.css */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h2, h3, h4 {
+    color: #fefeff;
+  }
+  
+  button {
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  

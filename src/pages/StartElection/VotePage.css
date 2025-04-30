@@ -1,0 +1,71 @@
+.vote-wrapper {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .vote-title {
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 24px;
+    color: #1f2937;
+    font-family: Century Gothic;
+  }
+  
+  .vote-image {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .vote-details p {
+    font-size: 18px;
+    margin: 6px 0;
+    color: #374151;
+    font-family: Cascadia Code;
+  }
+  
+  .vote-button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    margin-top: 12px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-family: Cascadia Code;
+  }
+  
+  .vote-button.confirm {
+    background-color: #16a34a;
+    color: white;
+  }
+  
+  .vote-button.confirm:hover {
+    background-color: #15803d;
+  }
+  
+  .vote-button.cancel {
+    background-color: #6b7280;
+    color: white;
+  }
+  
+  .vote-button.cancel:hover {
+    background-color: #4b5563;
+  }
+  
+  .vote-error {
+    color: #ef4444;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 40px;
+  }
+  

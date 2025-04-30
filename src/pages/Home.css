@@ -1,0 +1,310 @@
+.home-container {
+    display: flex;
+    min-height: 90vh;
+    width: 100%;
+    flex-direction: column;
+    background: #aab99a6c;
+    color: #000000;
+    position: relative;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 12px;
+  }
+
+  
+  .home-sidebar {
+    position: absolute;
+    left: 0;
+    top: 100px;
+    width: 220px;
+    background: #b5ceb098;
+    padding: 20px;
+    z-index: 2;
+  }
+
+  .my-slider {
+    position: absolute;
+    left: 0;
+    top: 700px;
+    width: 220px;
+    background: #8eb4862d;
+    padding: 20px;
+  }
+  .my-slider h5{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 1px;
+    font-family: Cascadia Code;
+  }
+  .my-p p{
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin: 0;
+  }
+  
+  .sidebar-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 1px;
+    font-family: Cascadia Code;
+  }
+  
+  .sidebar-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar-link {
+    margin: 10px 0;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background 0.3s;
+    background-color: #1B4D3E;
+    text-align: center;
+    font-family: Cascadia Code;
+    transition: transform 0.3s ease;
+    color: #ebeeec;
+  }
+
+  
+  .sidebar-link:hover {
+    color: rgb(37, 134, 58);
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: underline;
+    transform: translateY(-5px);
+  }
+  
+  .home-content {
+    margin-left: 240px;
+    margin-right: 240px;
+    padding: 20px 10px;
+    text-align: center;
+    flex: 1;
+    border-left: solid rgba(225,225,225,0.125) 1px;
+    border-right: solid rgba(225,225,225,0.125) 1px;
+  }
+  
+  .home-title {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: rgb(0, 0, 0);
+    font-family: Century Gothic;
+  }
+  
+  .home-subtitle {
+    font-size: 18px;
+    margin-bottom: 40px;
+    color: rgb(0, 0, 0);
+    font-family: Century Gothic;
+  }
+  
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 30px;
+    justify-items: center;
+  }
+  
+  .card {
+    background:#ced4d0;
+    padding: 25px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    backdrop-filter: blur(16px);
+    color: #000000;
+    max-width: 300px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    border-radius: 12px;
+    
+  }
+  
+  .card:hover {
+    transform: translateY(-15px);
+  }
+  
+  .card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family: Century Gothic;
+    border-bottom: 1px solid rgb(77, 75, 75);
+  }
+  
+  .card p {
+    font-size: 14px;
+    margin-bottom: 15px;
+    color: rgb(34, 34, 34);
+    font-family: Cascadia Code;
+  }
+  
+  .card button {
+    padding: 10px 20px;
+    background-color: #1B4D3E;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-family: Cascadia Code;
+  }
+  
+  .card button:hover {
+    background-color: #218838;
+  }
+  
+  .home-footer {
+    background: #000000;
+    padding: 12px 0;
+    text-align: center;
+    font-size: 12px;
+    color: #ccc;
+    height: 60px;
+    border-top:1px solid #ffffff;
+  }
+
+  .logo-imgs {
+    width: 250px;
+    height: auto;
+  }
+
+  .right-slider {
+    position: absolute;
+    right: 0;
+    top: 100px;
+    width: 220px;
+    background: #8eb48600;
+    padding-right: 10px;
+    z-index: 1;
+  }
+  .right-slider-content{
+    background:#ced4d0;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 10px;
+  }
+  .right-slider h5 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding: 1px;
+    font-family: Cascadia Code;
+  }
+  
+  .right-slider-content p {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin: 0;
+    font-family: Cascadia Code;
+    font-weight: 300;
+  }
+  
+  
+
+  @media screen and (max-width: 790px){
+    .home-sidebar{
+      display: none;
+    }
+    .home-content{
+      margin: 0px;
+      margin-left: 25px;
+    }
+    
+  }
+
+  @media screen and (max-width: 1024px){
+    .home-content{
+      margin-right: 25px;
+      border: none;
+    }
+    .right-slider{
+      display: none;
+    }
+    .my-slider{
+      display: none;
+    }
+    .Navbar {
+      width: 100%;
+      height: 120px;
+    }
+  }
+
+  .profile {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    height: auto;
+    width: auto;
+    background: #ced4d0;
+  
+    .profileImg {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding-top: 10px;
+  
+      img {
+        border-radius: 50%;
+        border: 1px solid gray;
+        height: 90px;
+        width: auto;
+      }
+  
+      .profileName {
+        text-align: center;
+        font-family: Cascadia Code;
+        font-size: 16px;
+        font-weight: 500;
+        word-break: break-word;
+      }
+  
+      .profileEmail {
+        text-align: center;
+        font-family: Cascadia Code;
+        font-size: 14px;
+        font-weight: 300;
+        max-width: 220px;
+        word-break: break-word;
+        overflow-wrap: break-word;
+      }
+  
+      .profileBtn {
+        padding: 10px 30px;
+        margin: 10px;
+        background-color: #1B4D3E;
+        color: white;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: background 0.3s;
+        font-family: Cascadia Code;
+      }
+  
+      .profileBtn:hover {
+        background: green;
+      }
+    }
+  
+    .ProfileBtn2 {
+      padding: 10px 30px;
+      margin: 10px;
+      background-color: #1B4D3E;
+      color: white;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-family: Cascadia Code;
+    }
+  
+    .ProfileBtn2:hover {
+      background: green;
+    }
+  }
+  
+  

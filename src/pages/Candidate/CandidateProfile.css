@@ -1,0 +1,66 @@
+
+.profile-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 32px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .profile-title {
+    font-size: 28px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 24px;
+    font-family: Century Gothic;
+  }
+  
+  .profile-image {
+    width: 40%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-info {
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-family: Cascadia Code;
+    font-weight: 100;
+    color: black;
+  }
+  
+  .btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    font-weight: 500;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    margin-top: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-family: Cascadia Code;
+  }
+  
+  .vote-btn {
+    background-color: #16a34a;
+  }
+  
+  .vote-btn:hover {
+    background-color: #15803d;
+  }
+  
+  .back-btn {
+    background-color: #4b5563;
+  }
+  
+  .back-btn:hover {
+    background-color: #374151;
+  }
+  

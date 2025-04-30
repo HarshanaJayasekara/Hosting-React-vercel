@@ -1,0 +1,122 @@
+.new {
+  background: linear-gradient(to right, #62cfdd, #9be646);
+  padding: 0;
+}
+
+.manager-container {
+    max-width: 900px;
+    margin-top: 200px;
+    padding: 24px;
+    background: #ffffff6e;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.08);
+    border: 1px solid gray;
+  }
+  
+  .manager-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: normal;
+    margin-bottom: 20px;
+    font-family: Century Gothic;
+  }
+  
+  .manager-search {
+    display: block;
+    width: 100%;
+    padding: 10px 16px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Cascadia Code;
+  }
+  
+  .manager-card {
+    display: flex;
+    align-items: flex-start;
+    background: #ffffff;
+    padding: 16px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    gap: 16px;
+  }
+  
+  .manager-img {
+    width: 180px;
+    height: auto;
+    border-radius: 8px;
+    object-fit: cover;
+    border: 2px solid #ccc;
+  }
+  
+  .manager-details {
+    flex: 1;
+    font-family: Cascadia Code;
+  }
+  
+  .manager-name {
+    font-size: 20px;
+    font-weight: 600;
+    color: #111827;
+    font-family: Century Gothic;
+  }
+  
+  .manager-party,
+  .manager-description {
+    font-size: 14px;
+    color: #555;
+    margin: 6px 0;
+    font-family: Century Gothic;
+  }
+  
+  .manager-actions {
+    margin-top: 10px;
+  }
+  
+  .manager-btn {
+    padding: 8px 14px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: Cascadia Code;
+  }
+  
+  .manager-btn.edit {
+    background-color: #3b82f6;
+    color: white;
+  }
+  
+  .manager-btn.delete {
+    background-color: #ef4444;
+    color: white;
+  }
+  
+  .manager-btn.save {
+    background-color: #10b981;
+    color: white;
+  }
+  
+  .manager-btn.cancel {
+    background-color: #9ca3af;
+    color: white;
+  }
+  
+  .manager-input,
+  .manager-textarea {
+    display: block;
+    width: 100%;
+    margin: 6px 0;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+  }
+
+  
+
+  @media screen and (max-width : 700px) {
+    .manager-description{
+        display: none;
+    }
+  }
+  
